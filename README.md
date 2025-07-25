@@ -73,7 +73,7 @@ pip install tensorflow numpy opencv-python matplotlib scikit-learn
 
 ## Model Architecture
 
-This project uses a custom [U-Net](https://arxiv.org/abs/1505.04597) for image segmentation:
+This project uses a custom [U-Net](https://medium.com/analytics-vidhya/what-is-unet-157314c87634) for image segmentation:
 - **Encoder**: Stacked convolutional blocks with downsampling.
 - **Bottleneck**: Deepest layer capturing global features.
 - **Decoder**: Upsampling blocks with skip connections for precise localization.
