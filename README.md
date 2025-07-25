@@ -100,8 +100,8 @@ This project uses a custom [U-Net](https://medium.com/analytics-vidhya/what-is-u
 
 The U-Net model demonstrates robust performance in segmenting potholes. Below are sample qualitative results:
 
-| ![Input](Results/image_1.jpg) 
-| ![Input](Results/image_2.jpg) 
+| ![Input](Results/image_1.png) 
+| ![Input](Results/image_2.png) 
 
 
 > **Note:** Replace the image paths above with your actual result images, e.g., from `/results/` or `/images/` in your repository.
