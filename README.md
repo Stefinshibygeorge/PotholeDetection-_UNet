@@ -84,18 +84,10 @@ This project uses a custom [U-Net](https://medium.com/analytics-vidhya/what-is-u
 ## Training & Validation
 
 - Data is split into training and validation sets.
-- The model is compiled and trained using binary cross-entropy loss and appropriate metrics (e.g., IoU, Dice).
+- The model is compiled and trained using MSE.
 - Training progress and validation performance are monitored.
 
 ---
-
-## Visualization
-
-- Built-in functions to visualize random pairs of images and masks.
-- Qualitative inspection of model predictions alongside ground truth.
-
----
-
 ## Results
 
 The U-Net model demonstrates robust performance in segmenting potholes. Below are sample qualitative results:
