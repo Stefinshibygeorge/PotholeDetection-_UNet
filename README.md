@@ -14,7 +14,7 @@ This repository provides a deep learning pipeline for detecting potholes in road
 - [Training & Validation](#training--validation)
 - [Visualization](#visualization)
 - [Results](#results)
-- [References](#references)
+
 
 ---
 
@@ -100,24 +100,15 @@ This project uses a custom [U-Net](https://medium.com/analytics-vidhya/what-is-u
 
 The U-Net model demonstrates robust performance in segmenting potholes. Below are sample qualitative results:
 
-| Input Image | Ground Truth Mask | Predicted Mask |
-|-------------|------------------|---------------|
-| ![Input](results/input1.jpg) | ![GT](results/gt1.jpg) | ![Pred](results/pred1.jpg) |
-| ![Input](results/input2.jpg) | ![GT](results/gt2.jpg) | ![Pred](results/pred2.jpg) |
-| ![Input](results/input3.jpg) | ![GT](results/gt3.jpg) | ![Pred](results/pred3.jpg) |
+| ![Input](Results/image_1.jpg) 
+| ![Input](Results/image_2.jpg) 
+
 
 > **Note:** Replace the image paths above with your actual result images, e.g., from `/results/` or `/images/` in your repository.
 
 **Sample Metrics:**  
 - *Add metrics such as Dice score, IoU, accuracy here after evaluation.*
-
----
-
-## References
-
-- [U-Net: Convolutional Networks for Biomedical Image Segmentation (Ronneberger et al.)](https://arxiv.org/abs/1505.04597)
-- [TensorFlow Documentation](https://www.tensorflow.org/)
-- [Keras Documentation](https://keras.io/)
+- accuracy - 90 %
 
 ---
 
